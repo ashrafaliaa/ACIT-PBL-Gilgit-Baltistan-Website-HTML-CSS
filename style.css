@@ -1,0 +1,246 @@
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif; 
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+header {
+  background: #012955;
+  color: #fff;
+  padding: 10px 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffdd57;
+}
+
+#home {
+  text-align: center;
+}
+
+.slider {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 20px 0;
+}
+
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.paragraph {
+  max-width: 600px;
+  text-align: justify;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.districts {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.districts h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.para {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.sss {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.m {
+  margin: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.m img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.m img:hover {
+  transform: scale(1.05);
+}
+
+.t1 a {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.t1 a:hover {
+  text-decoration: underline;
+}
+
+#about {
+  text-align: center;
+  margin: 40px 20px;
+}
+
+#about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#about p {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.member-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  margin-right: 20px;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+}
+#contact {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #012955;
+  color: #fff; 
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
